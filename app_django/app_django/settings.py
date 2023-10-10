@@ -25,20 +25,28 @@ SECRET_KEY = 'django-insecure-44zry+33_s!n^5h+@o47eua@#t*7ipd5u9#4uj12)ii%hm$6--
 # SECURITY WARNING: don't run with debug turned on in production!
 DEBUG = True
 
-ALLOWED_HOSTS = ['localhost']
+ALLOWED_HOSTS = ['localhost' , '127.0.0.1']
 
 
 # Application definition
 
 INSTALLED_APPS = [
+    
+    # Default apps
     'django.contrib.admin',
     'django.contrib.auth',
     'django.contrib.contenttypes',
     'django.contrib.sessions',
     'django.contrib.messages',
     'django.contrib.staticfiles',
+    
+    # pip install djangorestframework
     'rest_framework',
+    
+    #pip install django-cors-headers
     'corsheaders',
+    
+    #django-admin startapp app_user => Para crear nuevas apps
     'app_user',
 ]
 
