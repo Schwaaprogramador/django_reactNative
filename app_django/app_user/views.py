@@ -17,6 +17,7 @@ REST_FRAMEWORK = {
         'rest_framework.permissions.DjangoModelPermissionsOrAnonReadOnly'
     ]
 }
+
 """
 from rest_framework.views import APIView
 from rest_framework.response import Response

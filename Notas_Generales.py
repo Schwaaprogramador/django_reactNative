@@ -1,7 +1,16 @@
 # https://www.youtube.com/watch?v=wrSS9Tz2zqg&list=PLH4-zYHtDkEhWhWFf0LhbIYS0gbDOIfso&index=3&ab_channel=ThatPythonTeacher
 # Para hacer el projecto con react native y django
+
+
+
 """
 1.crear el django project
+
+2. Algun problema de dependencias con REST_FRAMEWORK_JWT y la version DJANGO
+Solucion del comentario de youtube que funciono:
+Had same problem. Apparently smart_text is not supported by django 4.0 so 
+i installed django 3.2.2 as in video and it started working. 
+You can do it with pip install Django==3.2.2
 
 
 
